@@ -2,7 +2,7 @@
 
 # Hoofdstuk 1 De manier van programmeren
 
-Het doel van dit boek is om u te leren denken als een programmeur. De manier waarop programmeurs denken, combineert de beste eigenschappen van wiskunde, technische wetenschappen en de natuurwetenschappen. Net als wiskundigen gebruiken programmeurs een formele taal om een idee weer te geven. Net als bouwkundigen bedenken ze dingen, maken de benodigde onderdelen, assembleren deze en bedenken er weer een alternatief voor. Net als natuurkundigen observeren ze het gedrag van een complex systeem en testen vervolgens de gemaakte voorspellingen.
+Het doel van dit werk is om u te leren denken als een programmeur. De manier waarop programmeurs denken, combineert de beste eigenschappen van wiskunde, technische wetenschappen en de natuurwetenschappen. Net als wiskundigen gebruiken programmeurs een formele taal om een idee weer te geven. Net als bouwkundigen bedenken ze dingen, maken de benodigde onderdelen, assembleren deze en bedenken er weer een alternatief voor. Net als natuurkundigen observeren ze het gedrag van een complex systeem en testen vervolgens de gemaakte voorspellingen.
 
 De belangrijkste vaardigheid van een programmeur is **probleemoplossing**. Met probleemoplossing bedoelen we het vermogen om problemen te formuleren, creatief te denken over oplossingen en de oplossing duidelijk en nauwkeurig uit te kunnen leggen. Het is mooi meegenomen dat leren programmeren een uitstekende manier is om probleemoplossingen te bedenken. Dat is waarom we dit hoofdstuk “De manier van programmeren” noemen.
 
@@ -20,13 +20,11 @@ De nadelen wegen dus niet op tegen de voordelen en dat is precies de reden dat b
 
 Twee verschillende programma's zetten de high-level languages om in low-level languages zodat de computer ze kan lezen. De verschillende programma's zijn **"interpreters"** en **"compilers"**. Een interpreter leest een high-level language en voert deze uit; dit houdt in dat het precies doet wat er in het programma staat. Het leest het programma lijn voor lijn en bekijkt dan wat er uitgevoerd moet worden. Een voorbeeld hiervan ziet u hieronder:
 
-![boek001_nl.png](https://wiki.ubuntu-nl.org/community/ThinkPython/HoofdstukEen?action=AttachFile&do=get&target=boek001_nl.png "boek001_nl.png")
-    
+![bla](static/01-01.svg)
 
 Een compiler leest het programma en vertaalt het helemaal naar machinetaal voordat hij het programma gaat uitvoeren. In deze voorbeelden wordt de programmacode de **"source code"** genoemd, het naar machinetaal vertaalde programma wordt **"object code"** of **"executable"** genoemd. Als een programma is gecompileerd kunt u het meerdere malen uitvoeren zonder dat het programma opnieuw vertaald hoeft te worden.
 
-![boek002_nl.png](https://wiki.ubuntu-nl.org/community/ThinkPython/HoofdstukEen?action=AttachFile&do=get&target=boek002_nl.png "boek002_nl.png")
-    
+![bla](static/01-02.svg)
 
 Python wordt beschouwd als een geïnterpreteerde programmeertaal. Dit omdat alle python programma's worden uitgevoerd door een interpreter. De interpreter kan op twee manieren gebruikt worden: interactieve modus en script modus. Bij interactieve modus wordt, na het typen van code, het resultaat direct getoond door de interpreter.
 
@@ -129,7 +127,7 @@ Hoewel formele en natuurlijke talen veel overeenkomsten hebben in gemeenschappel
 
 **overtolligheid**: Om met dubbelzinnigheid om te gaan en misverstanden te voorkomen bedienen natuurlijke talen zich van veel overtolligheid. Met als resultaat, dat deze breedsprakig zijn en dus veel woorden nodig hebben. Formele talen zijn minder uitgebreid en beknopter.
 
-**letterlijkheid**: Natuurlijke talen zitten vol met taaleigenaardigheden en beeldspraak. Als ik zeg, “Het kwartje is gevallen”, dan is er waarschijnlijk geen kwartje en is er niets gevallen1. Formele talen bedoelen precies wat ze zeggen.
+**letterlijkheid**: Natuurlijke talen zitten vol met taaleigenaardigheden en beeldspraak. Als ik zeg, “Het kwartje is gevallen”, dan is er waarschijnlijk geen kwartje en is er niets gevallen[1]. Formele talen bedoelen precies wat ze zeggen.
 
 Mensen die opgroeien in het spreken van een natuurlijke taal — iedereen dus — hebben het vaak moeilijk met het zich aanpassen aan een formele taal. In sommige opzichten is het verschil tussen een formele en een natuurlijke taal net als het verschil tussen poëzie en proza, maar dan zo:
 
@@ -149,7 +147,7 @@ Traditioneel heet het eerste programma dat u schrijft in een nieuwe taal "Hello,
 print("Hello, World!")
 ```
 
-Dit is een voorbeeld van een **print instructie**2 , die eigenlijk niet iets afdrukt op papier. Het geeft een waarde weer op het scherm. In dit geval is het resultaat
+Dit is een voorbeeld van een **print functie** , die eigenlijk niet iets afdrukt op papier. Het geeft een waarde weer op het scherm. In dit geval is het resultaat
 
 Hello, World!
 
@@ -167,7 +165,7 @@ Deze manier van experimenteren helpt u te onthouden wat u leest; het helpt u ook
 
 Programmeren en in het bijzonder debuggen brengen soms heftige emoties te weeg. Als u worstelt met een moeilijke bug (fout), kunt u zich boos, wanhopig of uit het veld geslagen voelen.
 
-Er is bewijs dat mensen van nature reageren naar computers toe alsof het mensen zijn3. Als ze correct werken, behandelen we ze als teamleden maar als ze koppig of grof zijn, dan reageren we op computers op dezelfde manier als op koppige en grove mensen.
+Er is bewijs dat mensen van nature reageren naar computers toe alsof het mensen zijn. Als ze correct werken, behandelen we ze als teamleden maar als ze koppig of grof zijn, dan reageren we op computers op dezelfde manier als op koppige en grove mensen.
 
 Voorbereid zijn op dergelijke reacties helpt u om hier goed mee om te gaan. Een manier van benaderen is te denken aan de computer als een werknemer met bepaalde sterke kanten, zoals snelheid en precisie, en specifieke zwakheden, zoals gebrek aan inlevingsvermogen en het grote plaatje niet kunnen overzien.
 
@@ -241,12 +239,11 @@ Bijvoorbeeld: geef 'print' op in het zoekvak, de eerste link die verschijnt is h
 
 Als dit voorbeeld niet werkt moet u waarschijnlijk extra Python documentatie installeren of een omgevingsvariabele instellen; de details hangen af van uw besturingssysteem en de versie van Python.
 
-**Oefening 1.4** Start de Python interpreter en gebruik deze als een rekenmachine. De zinsbouw van Python voor rekenfuncties is nagenoeg dezelfde als bij een gewone rekensom. Bijvoorbeeld: de symbolen +, - en / verwijzen naar optellen, aftrekken en delen, zoals u zou verwachten. Het symbool voor vermenigvuldigen is "\*".
+**Oefening 1.4** Start de Python interpreter en gebruik deze als een rekenmachine. De zinsbouw van Python voor rekenfuncties is nagenoeg dezelfde als bij een gewone rekensom. Bijvoorbeeld: de symbolen `+`, `-` en `/` verwijzen naar optellen, aftrekken en delen, zoals u zou verwachten. Het symbool voor vermenigvuldigen is `*`.
 
 Als u 10 kilometer loopt in 43 minuten en 30 seconden, wat is dan uw gemiddelde tijd per mijl? Wat is uw gemiddelde snelheid in mijl per uur? (Hint: één mijl is 1.61 kilometer).
 
-* * *
+---
 
-1 Dit spreekwoord betekent dat iemand zich iets realiseert na even in verwarring te zijn geweest.  
-2 In Python 3.0, is print een functie en geen instructie, dus de zinsbouw is print(’Hello, World!’). Op functies gaan we binnenkort in!  
-3 Zie Reeves en Nass, _The Media Equation: How People Treat Computers, Television, and New Media Like Real People and Places._
+[1] Dit spreekwoord betekent dat iemand zich iets realiseert na even in verwarring te zijn geweest.  
+[2] Zie Reeves en Nass, *The Media Equation: How People Treat Computers, Television, and New Media Like Real People and Places.*
