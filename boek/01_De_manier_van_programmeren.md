@@ -20,26 +20,28 @@ De nadelen wegen dus niet op tegen de voordelen en dat is precies de reden dat b
 
 Twee verschillende programma's zetten de high-level languages om in low-level languages zodat de computer ze kan lezen. De verschillende programma's zijn **"interpreters"** en **"compilers"**. Een interpreter leest een high-level language en voert deze uit; dit houdt in dat het precies doet wat er in het programma staat. Het leest het programma lijn voor lijn en bekijkt dan wat er uitgevoerd moet worden. Een voorbeeld hiervan ziet u hieronder:
 
--   ![boek001_nl.png](https://wiki.ubuntu-nl.org/community/ThinkPython/HoofdstukEen?action=AttachFile&do=get&target=boek001_nl.png "boek001_nl.png")
+![boek001_nl.png](https://wiki.ubuntu-nl.org/community/ThinkPython/HoofdstukEen?action=AttachFile&do=get&target=boek001_nl.png "boek001_nl.png")
     
 
 Een compiler leest het programma en vertaalt het helemaal naar machinetaal voordat hij het programma gaat uitvoeren. In deze voorbeelden wordt de programmacode de **"source code"** genoemd, het naar machinetaal vertaalde programma wordt **"object code"** of **"executable"** genoemd. Als een programma is gecompileerd kunt u het meerdere malen uitvoeren zonder dat het programma opnieuw vertaald hoeft te worden.
 
--   ![boek002_nl.png](https://wiki.ubuntu-nl.org/community/ThinkPython/HoofdstukEen?action=AttachFile&do=get&target=boek002_nl.png "boek002_nl.png")
+![boek002_nl.png](https://wiki.ubuntu-nl.org/community/ThinkPython/HoofdstukEen?action=AttachFile&do=get&target=boek002_nl.png "boek002_nl.png")
     
 
 Python wordt beschouwd als een geïnterpreteerde programmeertaal. Dit omdat alle python programma's worden uitgevoerd door een interpreter. De interpreter kan op twee manieren gebruikt worden: interactieve modus en script modus. Bij interactieve modus wordt, na het typen van code, het resultaat direct getoond door de interpreter.
 
 Een voorbeeld van de interactieve modus ziet u hieronder:
 
-\>>> 1 + 1
+```
+>>> 1 + 1
 2
+```
 
-De visgraat, >>> is de prompt die de interpreter gebruikt om aan te geven dat hij klaar is. Als u 1 + 1 ingeeft en op Enter drukt, komt de interpreter met de uitkomst 2.
+De visgraat, `>>>` is de prompt die de interpreter gebruikt om aan te geven dat hij klaar is. Als u `1 + 1` ingeeft en op Enter drukt, komt de interpreter met de uitkomst `2`.
 
 Bij de andere optie, script modus, slaat u code op in een python bestand. De interpreter wordt gebruikt om dit bestand uit te voeren. Dit bestand wordt een **"script"** , ofwel **"module"** genoemd. Alle door python uitvoerbare scripts of bestanden eindigen hun bestandsnaam met .py of .pyw (de zg. extensie)
 
-Om een script uit te laten voeren moet u de interpreter de naam van het bestand laten weten. In een Unix commando scherm typt u bijvoorbeeld: "python voorbeeld.py". In "python voorbeeld.py" wordt de tekst "python" gebruikt om aan te geven dat het om een python script gaat. Als u een ander besturingssysteem dan een op Unix gebaseerd systeem gebruikt, kan er verschil zitten in de manier waarop het script wordt uitgevoerd. Instructies om uw script op een ander systeem uit te voeren kunt u allemaal vinden op de website [www.python.org](http://www.python.org).
+Om een script uit te laten voeren moet u de interpreter de naam van het bestand laten weten. In een Unix commando scherm typt u bijvoorbeeld: `python voorbeeld.py`. In `python voorbeeld.py` wordt de tekst `python` gebruikt om aan te geven dat het om een python script gaat. Als u een ander besturingssysteem dan een op Unix gebaseerd systeem gebruikt, kan er verschil zitten in de manier waarop het script wordt uitgevoerd. Instructies om uw script op een ander systeem uit te voeren kunt u allemaal vinden op de website [www.python.org](http://www.python.org).
 
 De interactieve modus kunt u het best gebruiken om kleine stukken code te testen omdat het resultaat meteen zichtbaar wordt. Als u meer dan een paar regels code hebt, kunt u ze het best in een script opslaan, zodat dit in de toekomst gewijzigd en uitgevoerd kan worden.
 
@@ -107,8 +109,7 @@ In de volgende hoofdstukken zullen we meer suggesties geven over het debuggen en
 
 **Formele talen** zijn talen die zijn ontworpen door mensen voor een specifieke toepassing. Bijvoorbeeld: de notatie die wiskundigen gebruiken is een formele taal die in het bijzonder goed is in het omschrijven van relaties tussen getallen en symbolen. Scheikundigen gebruiken een formele taal om de chemische structuur van moleculen te beschrijven. En de meest belangrijke:
 
--   **Programmeertalen zijn formele talen die zijn ontworpen om de werking van een computer te beschrijven.**
-    
+> Programmeertalen zijn formele talen die zijn ontworpen om de werking van een computer te beschrijven.
 
 Formele talen zijn geneigd om strikte regels te hanteren ten aanzien van de zinsbouw. Bijvoorbeeld: 3+3 = 6 is syntactisch een correcte wiskundige formulering, maar 3+ = 3$6 is dat niet. _H_2_O_ is een syntactisch correcte scheikundige formule, maar 2_Zz_ is dat niet.
 
@@ -144,7 +145,9 @@ Hierbij een aantal suggesties voor het lezen van programma's (en andere formele 
 
 Traditioneel heet het eerste programma dat u schrijft in een nieuwe taal "Hello, World!" omdat het alleen de woorden "Hello, World!" weergeeft. In Python ziet het er zo uit:
 
-print 'Hello, World!'
+```
+print("Hello, World!")
+```
 
 Dit is een voorbeeld van een **print instructie**2 , die eigenlijk niet iets afdrukt op papier. Het geeft een waarde weer op het scherm. In dit geval is het resultaat
 
